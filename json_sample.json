@@ -1,38 +1,63 @@
 {
-	SUPVAR1: SVAL1,
-	SUPVAR2: SVAL2,
-		Categories: [{
-			"VAR1" : "VAL1,
-			"VAR2  : "VAL2,
-			"VAR3  : "VAL3",
-			"SubVars1": [ {
-				"subvar1" : "subval1",
-				"subvar2": "subval2",
-				"subvar3": "subval3",
-				"DubSubVar" :  [ {
-					"DBS1" : "DBV1",
-					"DBS2" : "DBV2",
-					"DBS3" : "DBV3"}]}]},
-			"VAR1" : "VAL4,
-			"VAR2  : "VAL5,
-			"VAR3  : "VAL6",
-			"SubVars1": [ {
-				"subvar1" : "subval4",
-				"subvar2": "subval5",
-				"subvar3": "subval6",
-				"DubSubVar" :  [ {
-					"DBS1" : "DBV4",
-					"DBS2" : "DBV5",
-					"DBS3" : "DBV6"}]}]},
-
-			"VAR1" : "VAL7,
-			"VAR2  : "VAL8,
-			"VAR3  : "VAL9",
-			"SubVars1": [ {
-				"subvar1" : "subval7",
-				"subvar2": "subval8",
-				"subvar3": "subval9",
-				"DubSubVar" :  [ {
-					"DBS1" : "DBV7",
-					"DBS2" : "DBV8",
-					"DBS3" : "DBV9"}]}]} ] }
+  "SUPVAR1": "SVAL1",
+  "SUPVAR2": "SVAL2",
+  "Categories": [
+    {
+      "VAR1": "VAL1",
+      "VAR2": "VAL2",
+      "VAR3": "VAL3",
+      "SubVars1": [
+        {
+          "subvar1": "subval1",
+          "subvar2": "subval2",
+          "subvar3": "subval3",
+          "DubSubVar": [
+            {
+              "DBS1": "DBV1",
+              "DBS2": "DBV2",
+              "DBS3": "DBV3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "VAR1": "VAL4",
+      "VAR2": "VAL5",
+      "VAR3": "VAL6",
+      "SubVars1": [
+        {
+          "subvar1": "subval4",
+          "subvar2": "subval5",
+          "subvar3": "subval6",
+          "DubSubVar": [
+            {
+              "DBS1": "DBV4",
+              "DBS2": "DBV5",
+              "DBS3": "DBV6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "VAR1": "VAL7",
+      "VAR2": "VAL8",
+      "VAR3": "VAL9",
+      "SubVars1": [
+        {
+          "subvar1": "subval7",
+          "subvar2": "subval8",
+          "subvar3": "subval9",
+          "DubSubVar": [
+            {
+              "DBS1": "DBV7",
+              "DBS2": "DBV8",
+              "DBS3": "DBV9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
